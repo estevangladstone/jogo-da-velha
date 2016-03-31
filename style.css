@@ -1,0 +1,54 @@
+h1 {
+	text-align: center;
+	font-family: Arial;
+	color: #8D4B00;
+}
+
+.jogo {
+	display: table;
+    border-collapse: collapse;
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.linha {
+	display: table-row;
+}
+
+.casa {
+	width: 150px;
+	height: 150px;
+	background-color: #21A4DA;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial;
+    font-size: 100;
+    color: #A79F09;
+}
+
+.casa img {
+	max-width: 100%;
+	height: auto;
+}
+
+.casa:hover {
+	background-color: #07668D;
+}
+
+.cima {
+	border-bottom: 10px solid #E03856;
+}
+
+.esquerda {
+	border-right: 10px solid #E03856;
+}
+
+.direita {
+	border-left: 10px solid #E03856;
+}
+
+.baixo {
+	border-top: 10px solid #E03856;
+}
